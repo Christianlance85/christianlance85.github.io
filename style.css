@@ -3,11 +3,20 @@
     box-sizing: border-box;
     border-color: black;
 }
-.navbuttons{
-    float:right;
-    clear: both;
+
+.navbar1{
+    box-sizing: border-box;
+    width: 80%;
+    position: fixed;
+    top: 20px;
+    right: 0px;
 }
 body{
     width: 1080px;
     align-content: center;
+}
+.Name{
+    box-sizing: border-box;
+    margin: 20px 30px;
+    background-color: aquamarine;
 }
