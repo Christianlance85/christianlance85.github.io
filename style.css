@@ -3,3 +3,11 @@
     box-sizing: border-box;
     border-color: black;
 }
+.navbuttons{
+    float:right;
+    clear: both;
+}
+body{
+    width: 1080px;
+    align-content: center;
+}
