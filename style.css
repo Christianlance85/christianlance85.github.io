@@ -14,9 +14,13 @@
 body{
     width: 1080px;
     align-content: center;
+
 }
 .Name{
     box-sizing: border-box;
     margin: 20px 30px;
-    background-color: aquamarine;
+    width: 180px;
+    text-align: center;
+    background-color: darkcyan;
+    color: white;
 }
