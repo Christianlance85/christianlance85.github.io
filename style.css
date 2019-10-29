@@ -1,26 +1,49 @@
-.sentence{
-    background-color: aqua;
-    box-sizing: border-box;
-    border-color: black;
-}
-
 .navbar1{
     box-sizing: border-box;
-    width: 80%;
-    position: fixed;
-    top: 20px;
-    right: 0px;
+    width: 177.75%;
+    background: silver;
+    color: white;
 }
 body{
     width: 1080px;
     align-content: center;
-
+    flex-flow: wrap;
+    background: lightgoldenrodyellow;
 }
-.Name{
-    box-sizing: border-box;
-    margin: 20px 30px;
-    width: 180px;
-    text-align: center;
+
+.jumbotron{
+    height: 600px;
+    width: 900px;
+    margin-left: 50px;
+}
+.picture{
+    float: left;
+    clear: both;
+    flex-flow: wrap; 
+    margin-right: 10px;
+}
+
+.navbar-brand{
     background-color: darkcyan;
+    padding:  10px;
     color: white;
+}
+.navitems{
+    flex-direction: row-reverse;
+    color: grey;
+}
+footer{
+position: fixed;
+bottom: 0px;
+width: 100%;
+background-color: grey;
+height: 50px;
+vertical-align: middle;
+color: white;
+}
+.nav-link{
+    color: grey;
+}
+.foot{
+    justify-content: center;
 }
