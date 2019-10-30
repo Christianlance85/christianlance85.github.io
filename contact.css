@@ -8,7 +8,12 @@
 .submitbutton{
     margin: 10px 10px 10px 10px;
     margin-bottom: 10px;
+    
 }
 h1{
     color: darkcyan;
+}
+button{
+    background: darkcyan;
+    color: white;
 }
