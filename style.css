@@ -1,50 +1,220 @@
-.navbar1{
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    color: #777;
+    background: white;
+  }
+  
+  * {
     box-sizing: border-box;
-    width: 177.75%;
-    background: silver;
-    color: white;
-}
-body{
-    width: 1080px;
-    align-content: center;
-    flex-flow: wrap;
-    background: lightgoldenrodyellow;
-}
-
-.jumbotron{
-    height: 600px;
-    width: 900px;
-    margin-left: 50px;
-    background-color: white;
-}
-.picture{
-    float: left;
-    clear: both;
-    flex-flow: wrap; 
-    margin-right: 10px;
-}
-
-.navbar-brand{
-    background-color: darkcyan;
-    padding:  10px;
-    color: white;
-}
-.navitems{
-    flex-direction: row-reverse;
-    color: grey;
-}
-footer{
-position: fixed;
-bottom: 0px;
-width: 100%;
-background-color: grey;
-height: 50px;
-vertical-align: middle;
-color: white;
-}
-.nav-link{
-    color: grey;
-}
-.foot{
-    justify-content: center;
-}
+  }
+  
+  /* general */
+  
+  h1,
+  h2,
+  h3,
+  p {
+    margin-bottom: 20px;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #4aaaa5;
+  }
+  
+  h1 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #ddd;
+  }
+  
+  h2,
+  h3 {
+    font-size: 22px;
+  }
+  
+  /* header */
+  
+  #masthead {
+    color: #fff;
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .navbar-brand {
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+    margin-top: -1px;
+  }
+  
+  .navbar-default .navbar-brand {
+    color: #fff;
+    background: #4aaaa5;
+  }
+  
+  #navbar-links a {
+    line-height: 0px;
+    color: #999;
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+    margin-top: 30px;
+  }
+  
+  /* remove border from the about link */
+  #no-border-about {
+    border-left: 0 none !important;
+  }
+  
+  /* footer */
+  
+  .footer-section {
+      position: fixed;
+      bottom: 0px;
+      min-width: 100%;
+      max-width: 100%;
+    padding-top: 20px;
+   clear: both;
+    font-size: 12px;
+    color: #fff;
+    color: #ccc;
+    text-align: center;
+    background: #666;
+    border-top: 8px solid #4aaaa5;
+  }
+  
+  /* sidebar */
+  
+  .sidebar {
+    padding: 0px 30px 30px 30px;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+  }
+  
+  h3,
+  .sidebar h2 {
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    border-bottom: 2px solid #eee;
+  }
+  
+  .social {
+    max-height: 60px;
+    margin-bottom: 5px;
+  }
+  
+  .social.img-responsive {
+    display: inline-block;
+  }
+  
+  /* main */
+  
+  .main-section {
+    padding: 0px 30px 30px 30px;
+    margin: 0px 0px 30px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  .main-section p {
+    margin: 0px 15px 15px 10px;
+  }
+  
+  .main-section p:first-child {
+    margin-top: -10px !important;
+  }
+  
+  .main-section p:last-child {
+    margin-bottom: 0px;
+  }
+  
+  #profile-photo {
+    max-width: 25%;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    display: block;
+  }
+  
+  
+  /* portfolio page */
+  .caption {
+    width:100%;
+    bottom: 10px;
+    position: absolute;
+    background: #4aaaa5;
+  }
+  
+  .thumbnail {
+    border: 0 none;
+    box-shadow: none;
+    margin: 15px;
+    padding: 0;
+    max-width: 220px;  
+  }
+  
+  .caption h3 {
+    color: #fff;
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  
+  /* contact page */
+  
+  label,
+  input[type=text],
+  input[type=email],
+  textarea {
+    display: block;
+    width: 100%;
+    font-weight: normal;
+  }
+  
+  input[type=text],
+  input[type=email],
+  textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+  }
+  
+  textarea {
+    height: 200px;
+  }
+  
+  input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+  }
+  
+  #submit-button {
+    background-color: #4aaaa5;
+    font-size: 16px;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 18px;
+    padding-left: 18px;
+    border-radius: 0px;
+  }
