@@ -11,7 +11,9 @@ body {
   }
   
   /* general */
-  
+  p{
+      padding-top: 10px;
+  }
   h1,
   h2,
   h3,
