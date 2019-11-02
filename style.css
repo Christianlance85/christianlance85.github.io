@@ -97,17 +97,7 @@ body {
     border-top: 8px solid #4aaaa5;
   }
   
-  /* sidebar */
-  
-  .sidebar {
-    padding: 0px 30px 30px 30px;
-    background: #fff;
-    border: 1px solid #ddd;
-    margin-bottom: 30px;
-  }
-  
-  h3,
-  .sidebar h2 {
+  h3, h2 {
     padding-bottom: 20px;
     margin-bottom: 15px;
     line-height: 22px;
