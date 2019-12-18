@@ -1,0 +1,128 @@
+/* whole body */
+body {
+    background: url(/images/background-image.jpg);
+    color: #1f2833;
+}
+
+.body {
+    margin: 0 auto;
+    padding: 3%;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,h6
+{
+    color: darkcyan;
+}
+
+
+/* nav bar */
+.name {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-size: 3.5em;
+    margin-bottom: 0;
+}
+
+.bg-light {
+    background-color:  #1f2833!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: darkcyan;
+    font-family: 'Chivo', sans-serif;
+    font-weight: bolder;
+    font-size: 1.3em;
+    padding-left:100px;
+    padding-right:100px;
+    
+}
+
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+
+
+/* left side */
+.subhead {
+    font-size: 1.5em;
+    margin-bottom: 2vh;
+    font-family: 'Fredoka One', cursive;
+    font-weight: lighter;
+    color: darkcyan;
+    text-align: center;
+}
+
+.buttonlink {
+    margin: 3vh auto;
+}
+
+.codeWork {
+    margin-bottom: 5vh;
+    margin-top: 0;
+}
+
+.list-group-item {
+    background-color: #1f2833;
+    color: darkcyan;
+    border: 1px solid #1f2833;
+}
+
+.list-group-item-action {
+    width: 100%;
+    color: darkcyan;
+    font-family: 'Chivo', sans-serif;
+    font-weight: bolder;
+    font-size: 1.25em;
+}
+
+.click {
+    margin-top: 5vh;
+    font-family: 'Chivo', sans-serif;
+    color: darkcyan;
+    font-style: italic;
+    font-size: 0.9em;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+
+/* right side */
+.name2 {
+    color: darkcyan;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.5em;
+    margin-bottom: 2vh;
+}
+
+.leadImage img {
+    width: 100%;
+}
+
+.fourImage {
+    margin-top: 4vh;
+}
+
+.imageSize img {
+    width: 100%;
+}
+
+.linkedIn {
+    margin: 3vh auto;
+    align-content: center;
+}
+
+
+
+/* media query */
+@media only screen and (max-width: 640px) {
+    .needM {
+        margin-top: 4vh;
+    }
+  }
