@@ -9,7 +9,7 @@ This is a GitHub repository for my personal portfolio.
 
 ## Screenshot of Completed Application
 
-![Weather-Dashboard](images/Capture.JPG)
+![Responsive-Portfolio](images/Capture.JPG)
 
 ## GitHub Pages Link
 https://christianlance85.github.io/
